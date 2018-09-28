@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style1.css"?>
+<students>
+
+	<student>
+		<usn> 4VV15CS001 </usn>
+		<name> Abcd</name>
+		<college_name> VVCE</college_name>
+		<semester>7</semester>
+		<branch> Biotech </branch>
+		<email_id> dragneel_n@ft.com </email_id>
+	</student>
+	
+	<student>
+		<usn>4VV15CS002</usn>
+		<name> Bcde </name>
+		<college_name> VVCE</college_name>
+		<semester>8</semester>
+		<branch> Envi </branch>
+		<email_id> ichigo_k@bh.com </email_id>
+	</student>
+	
+	<student>
+		<usn> 4VV15CS003 </usn>
+		<name> Cdef </name>
+		<college_name> VVCE3</college_name>
+		<semester>8</semester>
+		<branch> Robotics </branch>
+		<email_id> elric_e@fa.com </email_id>
+	</student>
+
+</students>
