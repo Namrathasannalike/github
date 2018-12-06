@@ -1,7 +1,7 @@
 <?php 
 if(isset($_POST['res'])){
 $res=$_POST['display'];
-$res=eval('return',.$res.';');
+$res=eval('return '.$res.';');
 }
 
 ?>
@@ -28,7 +28,7 @@ font-size:15px;
 <center>
 <h2> calculator using php </h2>
 
-<from name="cal" method="post">
+<form name="cal" method="post">
 <table>
 <tr>
 <td colspan="4">
@@ -64,7 +64,7 @@ font-size:15px;
 </tr>
 <tr>
 
-<td><input type="button" value="c" onclick="cal.display.value +=''"></td>
+<td><input type="button" value="c" onclick="cal.display.value =''"></td>
 <td><input type="button" value="0" onclick="cal.display.value +='0'"></td>
 <td><input type="submit" value="=" name="res"></td>
 <td><input type="button" value="/" onclick="cal.display.value +='/'"></td>
@@ -75,6 +75,12 @@ font-size:15px;
 </center>
 </body>
 </html>
+
+
+
+
+
+
 
 
 
